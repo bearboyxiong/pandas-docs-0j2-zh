@@ -698,8 +698,8 @@ Out[73]: <matplotlib.axes._subplots.AxesSubplot at 0x7ff286891b50>
 
 索引的基本方式如下：
 
-<colgroup><col width="50%"> <col width="33%"> <col width="17%"></colgroup> 
-| 操作 | 句法 | 结果 |
+
+| 操作 | 语法 | 结果 |
 | --- | --- | --- |
 | 选择列 | `df[col]` | Series |
 | 按标签选择行 | `df.loc[label]` | Series |
@@ -1232,7 +1232,7 @@ Minor_axis axis: 0 to 2
 
 一个有用的工厂方法是`Panel.from_dict`，它接受上面的DataFrames的字典，以及以下命名参数：
 
-<colgroup><col width="17%"> <col width="17%"> <col width="67%"></colgroup> 
+
 | 参数 | 默认 | 描述 |
 | --- | --- | --- |
 | intersect（交集） | `False` | 丢弃索引没有对齐的元素 |
@@ -1351,8 +1351,7 @@ Minor_axis axis: 2000-01-01 00:00:00 to 2000-01-05 00:00:00
 
 ### 索引 / 选取
 
-<colgroup><col width="50%"> <col width="33%"> <col width="17%"></colgroup> 
-| 操作 | 句法 | 结果 |
+| 操作 | 语法 | 结果 |
 | --- | --- | --- |
 | 选取条目 | `wp[item]` | DataFrame |
 | 选取主轴标签 | `wp.major_xs(val)` | DataFrame |
